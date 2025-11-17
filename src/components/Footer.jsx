@@ -5,8 +5,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 text-sm">
           <div>
             <div className="flex items-center gap-2">
-              <div className="h-7 w-7 rounded-md bg-[#E4F5EC] flex items-center justify-center ring-1 ring-[#7CC79F]/30">
-                <div className="h-3.5 w-3.5 rounded-sm bg-[#7CC79F]"></div>
+              <div className="h-7 w-7 rounded-md bg-[#E4F5EC] flex items-center justify-center ring-1 ring-[#29B475]/30">
+                <div className="h-3.5 w-3.5 rounded-sm bg-[#29B475]"></div>
               </div>
               <span className="font-semibold text-[#1A3C34]">Coach Recap</span>
             </div>

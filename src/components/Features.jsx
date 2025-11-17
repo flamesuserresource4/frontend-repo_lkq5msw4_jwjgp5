@@ -20,8 +20,8 @@ export default function Features() {
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map(({ icon: Icon, title, body }) => (
             <div key={title} className="rounded-xl bg-white p-6 ring-1 ring-gray-200 shadow-sm hover:shadow-md transition">
-              <div className="h-10 w-10 rounded-lg bg-[#E4F5EC] ring-1 ring-[#7CC79F]/40 flex items-center justify-center mb-4">
-                <Icon className="h-5 w-5 text-[#1A3C34]" />
+              <div className="h-10 w-10 rounded-lg bg-[#29B475] ring-1 ring-[#29B475]/40 flex items-center justify-center mb-4">
+                <Icon className="h-5 w-5 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-[#1A3C34]">{title}</h3>
               <p className="mt-2 text-[#6B7280] leading-relaxed">{body}</p>

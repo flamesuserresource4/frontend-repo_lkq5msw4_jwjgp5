@@ -36,7 +36,7 @@ function App() {
                   <li>Audio transcription</li>
                   <li>Shareable recaps</li>
                 </ul>
-                <a href="#signup" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#7CC79F] px-4 py-2 text-white font-semibold hover:brightness-95">Get Started</a>
+                <a href="#signup" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#29B475] px-4 py-2 text-white font-semibold hover:brightness-95">Get Started</a>
               </div>
             ))}
           </div>

@@ -8,11 +8,11 @@ export default function HowItWorks() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
-        <div className="rounded-2xl bg-[#E4F5EC] p-6 ring-1 ring-[#7CC79F]/40">
+        <div className="rounded-2xl bg-[#E4F5EC] p-6 ring-1 ring-[#29B475]/40">
           <div className="grid md:grid-cols-3 gap-6">
             {steps.map((s) => (
               <div key={s.step} className="rounded-xl bg-white p-6 ring-1 ring-gray-200 shadow-sm">
-                <div className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#7CC79F] text-white font-semibold">
+                <div className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#29B475] text-white font-semibold">
                   {s.step}
                 </div>
                 <h3 className="mt-3 font-semibold text-[#1A3C34]">{s.title}</h3>

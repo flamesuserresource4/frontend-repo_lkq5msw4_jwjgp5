@@ -16,8 +16,8 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="h-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
-            <div className="h-8 w-8 rounded-md bg-[#E4F5EC] flex items-center justify-center ring-1 ring-[#7CC79F]/30">
-              <div className="h-4 w-4 rounded-sm bg-[#7CC79F]"></div>
+            <div className="h-8 w-8 rounded-md bg-[#E4F5EC] flex items-center justify-center ring-1 ring-[#29B475]/30">
+              <div className="h-4 w-4 rounded-sm bg-[#29B475]"></div>
             </div>
             <span className="text-sm sm:text-base font-semibold tracking-tight text-[#1A3C34] group-hover:opacity-90">Coach Recap</span>
           </a>
@@ -30,7 +30,7 @@ export default function Header() {
             ))}
             <a
               href="#signup"
-              className="ml-2 inline-flex items-center rounded-full bg-[#7CC79F] px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-[#7CC79F]/20 hover:brightness-95 transition"
+              className="ml-2 inline-flex items-center rounded-full bg-[#29B475] px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-[#29B475]/20 hover:brightness-95 transition"
             >
               Create Account
             </a>
@@ -60,7 +60,7 @@ export default function Header() {
               ))}
               <a
                 href="#signup"
-                className="rounded-md px-3 py-2 bg-[#7CC79F] text-white text-center font-medium"
+                className="rounded-md px-3 py-2 bg-[#29B475] text-white text-center font-medium"
                 onClick={() => setOpen(false)}
               >
                 Create Account

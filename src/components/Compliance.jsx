@@ -8,15 +8,15 @@ export default function Compliance() {
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#1A3C34]">Supported Languages & Privacy</h2>
             <p className="mt-2 text-[#6B7280] max-w-xl">Transcription and summaries in 20+ languages. Data is encrypted at rest and in transit. We support GDPR, SOC 2, and HIPAA-compliant deployments.</p>
-            <div className="mt-6 flex items-center gap-4 text-[#1A3C34]">
-              <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 ring-1 ring-gray-200 shadow-sm">
-                <Globe2 className="h-4 w-4" /> <span className="text-sm">20+ languages</span>
+            <div className="mt-6 flex items-center gap-4 text-white">
+              <div className="inline-flex items-center gap-2 rounded-full bg-[#29B475] px-3 py-2 ring-1 ring-[#29B475]/40 shadow-sm">
+                <Globe2 className="h-4 w-4 text-white" /> <span className="text-sm">20+ languages</span>
               </div>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 ring-1 ring-gray-200 shadow-sm">
-                <ShieldCheck className="h-4 w-4" /> <span className="text-sm">GDPR/SOC2</span>
+              <div className="inline-flex items-center gap-2 rounded-full bg-[#29B475] px-3 py-2 ring-1 ring-[#29B475]/40 shadow-sm">
+                <ShieldCheck className="h-4 w-4 text-white" /> <span className="text-sm">GDPR/SOC2</span>
               </div>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 ring-1 ring-gray-200 shadow-sm">
-                <Lock className="h-4 w-4" /> <span className="text-sm">HIPAA options</span>
+              <div className="inline-flex items-center gap-2 rounded-full bg-[#29B475] px-3 py-2 ring-1 ring-[#29B475]/40 shadow-sm">
+                <Lock className="h-4 w-4 text-white" /> <span className="text-sm">HIPAA options</span>
               </div>
             </div>
           </div>
